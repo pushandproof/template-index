@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Name</title>
+<meta name="description" content="Photographer.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a id="name" href="#/"></a>
+  <span id="role"></span>
+  <a id="info-link" href="#/info">Info</a>
+</header>
+
+<main id="viewer" aria-live="polite">
+  <figure><img id="photo" alt=""><figcaption id="caption"></figcaption></figure>
+  <button id="prev" aria-label="Previous"></button>
+  <button id="next" aria-label="Next"></button>
+</main>
+
+<section id="thumbs" hidden></section>
+<aside id="index" aria-label="Index"></aside>
+<section id="info" hidden></section>
+
+<footer>
+  <span id="counter"></span>
+  <nav id="bar"></nav>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
